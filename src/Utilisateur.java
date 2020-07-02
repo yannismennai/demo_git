@@ -9,6 +9,7 @@ public class Utilisateur {
 	private int id;
 	private String nom;
 	private String prenom;
+	private String telephone;
 	
 	/*____________ CTORS _____________*/
 	
@@ -57,6 +58,16 @@ public class Utilisateur {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
+
+	public String getTelephone() {
+		return telephone;
+	}
+
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
+	
+	
 	
 	
 }//end class
