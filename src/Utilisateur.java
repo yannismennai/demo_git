@@ -10,4 +10,19 @@ public class Utilisateur {
 	private String nom;
 	private String prenom;
 	
+	/*____________ CTORS _____________*/
+	
+	public Utilisateur() {
+		// TODO Auto-generated constructor stub
+	}//end ctor
+
+	public Utilisateur(int id, String nom, String prenom) {
+		super();
+		this.id = id;
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+	
+	
+	
 }//end class
